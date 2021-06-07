@@ -1,0 +1,239 @@
+/*** PRIMARY ***/
+/*** NEUTRAL ***/
+/*** GRADIENT ***/
+/** Background gradient - Intro/CTA mobile nav **/
+/** Background gradient - body **/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Overpass", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  overflow-x: hidden;
+}
+
+header {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  border-radius: 0 0 0 100px;
+  background: linear-gradient(to right, #ff8f70, #ff3d54);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.header-image {
+  height: 3000px;
+  width: 3000px;
+  position: absolute;
+  top: -1350px;
+  left: -100px;
+  z-index: 1;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  width: 100%;
+}
+.header-icon {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+}
+.header-menu-left {
+  margin-left: 200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 40px;
+  width: 250px;
+  text-align: center;
+  line-height: 40px;
+}
+.header-item:hover {
+  cursor: pointer;
+}
+.header-dropdown {
+  transform: scale(0);
+}
+.header-menu-right {
+  display: flex;
+  line-height: 40px;
+  float: right;
+  width: 120px;
+  justify-content: space-between;
+  margin-right: 150px;
+}
+.header-title {
+  font-size: 3em;
+  margin-top: 50px;
+  z-index: 2;
+}
+.header-subtitle {
+  margin-top: 20px;
+  z-index: 2;
+}
+.header-button__container {
+  margin-top: 30px;
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+.header-left__button {
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  width: 100px;
+  background-color: white;
+  color: #ff8f70;
+  font-weight: 700;
+  border: 1px solid #ff8f70;
+}
+.header-left__button:hover {
+  cursor: pointer;
+}
+.header-right__button {
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  width: 100px;
+  background-color: #ff8f70;
+  color: white;
+  font-weight: 700;
+  border: 1px solid white;
+}
+.header-right__button:hover {
+  cursor: pointer;
+}
+
+.section-main {
+  position: relative;
+  height: 1100px;
+  color: #1f3f5b;
+  display: grid;
+  grid-template-columns: repeat(2, 50vw);
+}
+.section-main-text__container {
+  width: 520px;
+  line-height: 2em;
+  margin-left: 200px;
+  margin-top: 320px;
+}
+.section-main__title {
+  position: absolute;
+  font-size: 2.5em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 150px;
+}
+.section-main__subtitle {
+  font-size: 1.5em;
+}
+.section-main-left__container {
+  position: absolute;
+  height: 1000px;
+  width: 1000px;
+  right: -270px;
+  top: 50px;
+}
+
+.section-state {
+  position: relative;
+  height: 400px;
+  background: linear-gradient(to right, #2c2d3f, #3f4164);
+  border-radius: 0 100px 0 100px;
+}
+.section-state-container {
+  width: 520;
+  display: flex;
+  flex-direction: column;
+  margin-right: 300px;
+  margin-top: 125px;
+  float: right;
+}
+.section-state-background__container {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+.section-state__background {
+  position: absolute;
+  top: -500px;
+  left: -215px;
+}
+.section-state__image {
+  position: absolute;
+  top: -60px;
+  left: 100px;
+}
+.section-state__title {
+  font-size: 2.5em;
+}
+.section-state__text {
+  width: 520px;
+  line-height: 2em;
+}
+
+.section-last {
+  height: 1100px;
+  position: relative;
+}
+.section-last__background-1 {
+  position: absolute;
+  left: -275px;
+  top: 150px;
+}
+.section-last__title {
+  font-size: 2.5em;
+}
+.section-last__text {
+  line-height: 2em;
+}
+
+footer {
+  height: 400px;
+  background-color: #25252d;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 200px;
+  margin-top: 75px;
+}
+.footer-image {
+  width: 100px;
+  height: 40px;
+}
+.footer-list__title {
+  margin-bottom: 50px;
+  color: white;
+  font-weight: bold;
+}
+.footer-list__title:hover {
+  cursor: pointer;
+}
+.footer-list__item {
+  margin-bottom: 20px;
+}
+.footer-list__item:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
